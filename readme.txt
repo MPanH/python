@@ -1,1 +1,5 @@
 this is a test file write by panxx
+BuildBot是一个自动构建工具。每当代码有改变，服务器要求不同平台上的客户端立即进行代码构建和测试，收集并报告不同平台的构建和测试结果。BuildBot用python写的，该python程序只依赖python环境和Twisted（一个python网络框架），可以在很多平台运行。
+自动化构建一般包括自动下载源码，编译，测试，打包。
+本文档描述了在Linux环境下搭建相关环境（SVN服务器centos7、buildbot服务端及客户端均部署于fedora20上）
+本文档持续集成环境搭建结合高性能网关进行。
